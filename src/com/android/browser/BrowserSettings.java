@@ -602,7 +602,7 @@ public class BrowserSettings implements OnSharedPreferenceChangeListener,
 
     public int getTextZoom() {
         requireInitialization();
-        int textZoom = mPrefs.getInt(PREF_TEXT_ZOOM, 10);
+        int textZoom = mPrefs.getInt(PREF_TEXT_ZOOM, 7);
         return getAdjustedTextZoom(textZoom);
     }
 

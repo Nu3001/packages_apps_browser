@@ -29,7 +29,7 @@
         <com.android.browser.preferences.SeekBarSummaryPreference
             android:key="text_zoom"
             android:title="@string/pref_text_zoom"
-            android:defaultValue="10"
+            android:defaultValue="7"
             android:max="30" />
 
         <com.android.browser.preferences.SeekBarSummaryPreference
